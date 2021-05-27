@@ -1,0 +1,43 @@
+body {
+    background-image: url(img/background-world-map-1.gif);
+    
+}.container {
+    position: relative;
+    top: 10em;
+}
+.boxwindow {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #22b3dd;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.searchbox {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+.btns {
+    margin-left: 1em;
+}
+#citySearch {
+    max-width: 200px;
+}
+#weather ul {
+        list-style: none;
+        font-size: 18px;
+        
+}
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+li {
+    margin-bottom: 5px;
+}
+h1 {
+    color: #0b94c0;
+}
