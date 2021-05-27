@@ -4,7 +4,7 @@ const cityInput = document.querySelector('#citySearch')
 
 const searchCity = (city) => {
     weatherContainer.innerHTML = ""
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=60ebf86e53cfceb0e5c4a9676d9d2841`) 
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=60ebf86e53cfceb0e5c4a9676d9d2841`) 
     .then(response => response.json())
 .then((data) => {
   console.log(data);
