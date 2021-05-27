@@ -14,7 +14,7 @@ const searchCity = (city) => {
   const tempMax = Math.round(data.main['temp_max']);
   const wind = data.wind.deg;
   const weather = data.weather[0]['main'];
-  weatherContainer.insertAdjacentHTML('beforeend',`<ul><li><span class="title">City : </span> ${cityName}</li><li> <span class="title">General wheater : </span>${weather}</li><li> <span class="title">Temperature :</span> ${temp}</li><li><span class="title"> Temperature min : </span>${tempMin}</li><li><span class="title"> Temperature max : </span>${tempMax}</li></ul> `)
+  weatherContainer.insertAdjacentHTML('beforeend',`<ul><li><span class="title">City : </span> ${cityName}</li><li> <span class="title">General wheater : </span>${weather}</li><li> <span class="title">Temperature :</span> ${temp}°</li><li><span class="title"> Temperature min : </span>${tempMin}°</li><li><span class="title"> Temperature max : </span>${tempMax}°</li></ul> `)
 
 })
 
